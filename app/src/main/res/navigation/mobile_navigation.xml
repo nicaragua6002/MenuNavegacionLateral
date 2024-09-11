@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.appsnica.menunavegacionlateral.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.appsnica.menunavegacionlateral.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.appsnica.menunavegacionlateral.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/produccion"
+        android:name="com.appsnica.menunavegacionlateral.Produccion"
+        android:label="fragment_produccion"
+        tools:layout="@layout/fragment_produccion" />
+    <fragment
+        android:id="@+id/ventasdistribucion"
+        android:name="com.appsnica.menunavegacionlateral.Ventasdistribucion"
+        android:label="fragment_ventasdistribucion"
+        tools:layout="@layout/fragment_ventasdistribucion" />
+    <fragment
+        android:id="@+id/calidad"
+        android:name="com.appsnica.menunavegacionlateral.Calidad"
+        android:label="fragment_calidad"
+        tools:layout="@layout/fragment_calidad" />
+    <fragment
+        android:id="@+id/finanzas"
+        android:name="com.appsnica.menunavegacionlateral.Finanzas"
+        android:label="fragment_finanzas"
+        tools:layout="@layout/fragment_finanzas" />
+    <fragment
+        android:id="@+id/configuracion"
+        android:name="com.appsnica.menunavegacionlateral.Configuracion"
+        android:label="fragment_configuracion"
+        tools:layout="@layout/fragment_configuracion" />
+</navigation>
